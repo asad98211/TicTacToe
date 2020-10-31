@@ -1,0 +1,186 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.NET.Test.Sdk/16.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeCoverage": "16.6.1",
+          "Microsoft.TestPlatform.TestHost": "16.6.1"
+        },
+        "build": {
+          "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.props": {},
+          "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.NET.Test.Sdk.props": {}
+        }
+      },
+      "TicTacToe/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/TicTacToe.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicTacToe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.NET.Test.Sdk/16.6.1": {
+      "sha512": "zYAjfWzpxKb64P9ntReT1Xr8HdONZnpLVs12HIjXWo+UOCDpevP1UWRoaAgNysaD1/l3teBKvgbSeG9bRssfOQ==",
+      "type": "package",
+      "path": "microsoft.net.test.sdk/16.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net40/Microsoft.NET.Test.Sdk.props",
+        "build/net40/Microsoft.NET.Test.Sdk.targets",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.cs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.fs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.vb",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.props",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.targets",
+        "build/uap10.0/Microsoft.NET.Test.Sdk.props",
+        "buildMultiTargeting/Microsoft.NET.Test.Sdk.props",
+        "microsoft.net.test.sdk.16.6.1.nupkg.sha512",
+        "microsoft.net.test.sdk.nuspec"
+      ]
+    },
+    "TicTacToe/1.0.0": {
+      "type": "project",
+      "path": "../TicTacToe/TicTacToe.csproj",
+      "msbuildProject": "../TicTacToe/TicTacToe.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "NUnit >= 3.12.0",
+      "NUnit3TestAdapter >= 3.16.1",
+      "TicTacToe >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Asad\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\TicTacToeTest.csproj",
+      "projectName": "TicTacToeTest",
+      "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\TicTacToeTest.csproj",
+      "packagesPath": "C:\\Users\\Asad\\.nuget\\packages\\",
+      "outputPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Asad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
+              "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[16.5.0, )"
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.12.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[3.16.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "TicTacToeTest depends on Microsoft.NET.Test.Sdk (>= 16.5.0) but Microsoft.NET.Test.Sdk 16.5.0 was not found. An approximate best match of Microsoft.NET.Test.Sdk 16.6.1 was resolved.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package NUnit. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package NUnit3TestAdapter. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.TestPlatform.TestHost. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.TestPlatform.TestHost",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.CodeCoverage. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.CodeCoverage",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

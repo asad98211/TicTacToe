@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\TicTacToeTest.csproj": {}
+  },
+  "projects": {
+    "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\TicTacToeTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\TicTacToeTest.csproj",
+        "projectName": "TicTacToeTest",
+        "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\TicTacToeTest.csproj",
+        "packagesPath": "C:\\Users\\Asad\\.nuget\\packages\\",
+        "outputPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
+                "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+        "projectName": "TicTacToe",
+        "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+        "packagesPath": "C:\\Users\\Asad\\.nuget\\packages\\",
+        "outputPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Asad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

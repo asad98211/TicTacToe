@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "dgSpecHash": "X+C+TgVHXkwaxYcYSf2ZqaRJtm0kDrH85FZFzI6XqBJp3NZ3ghZWatPuOzdQFKGhsBplj+ZdjYB6vjxVi50SMQ==",
+  "success": false,
+  "projectFilePath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\TicTacToeTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asad\\.nuget\\packages\\microsoft.net.test.sdk\\16.6.1\\microsoft.net.test.sdk.16.6.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "TicTacToeTest depends on Microsoft.NET.Test.Sdk (>= 16.5.0) but Microsoft.NET.Test.Sdk 16.5.0 was not found. An approximate best match of Microsoft.NET.Test.Sdk 16.6.1 was resolved.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package NUnit. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package NUnit3TestAdapter. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.TestPlatform.TestHost. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.TestPlatform.TestHost",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.CodeCoverage. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.CodeCoverage",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
