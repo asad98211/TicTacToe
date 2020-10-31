@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "INqEibQWCyJI0PEcnS3MeItQ7Ujtj1A8PgsCvX5nE0GpSP1Rs1MXad6Ld65i+BZNm5GG/mjwaXK6KqGaW3hiVw==",
+  "dgSpecHash": "tOUTibGXKH/gIeFAERA6TOHSNhtA+F8gtxaU1ZK7YhCAXmniOYqT8GXGuU+CI8Lw4mMGjxNFWWcY1K9qeQCIoA==",
   "success": true,
-  "projectFilePath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+  "projectFilePath": "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToe\\TicTacToe.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\TicTacToeTest.csproj": {}
+    "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToeTest\\TicTacToeTest.csproj": {}
   },
   "projects": {
-    "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\TicTacToeTest.csproj": {
+    "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToeTest\\TicTacToeTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\TicTacToeTest.csproj",
+        "projectUniqueName": "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToeTest\\TicTacToeTest.csproj",
         "projectName": "TicTacToeTest",
-        "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\TicTacToeTest.csproj",
+        "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToeTest\\TicTacToeTest.csproj",
         "packagesPath": "C:\\Users\\Asad\\.nuget\\packages\\",
-        "outputPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToeTest\\obj\\",
+        "outputPath": "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToeTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,13 +21,14 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
-                "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj"
+              "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToe\\TicTacToe.csproj": {
+                "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToe\\TicTacToe.csproj"
               }
             }
           }
@@ -73,14 +74,14 @@
         }
       }
     },
-    "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
+    "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToe\\TicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+        "projectUniqueName": "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToe\\TicTacToe.csproj",
         "projectName": "TicTacToe",
-        "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+        "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToe\\TicTacToe.csproj",
         "packagesPath": "C:\\Users\\Asad\\.nuget\\packages\\",
-        "outputPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\obj\\",
+        "outputPath": "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToe\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -94,7 +95,8 @@
           "uap10.0.17763"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "uap10.0.17763": {

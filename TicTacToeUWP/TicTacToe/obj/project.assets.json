@@ -8157,11 +8157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+      "projectUniqueName": "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToe\\TicTacToe.csproj",
       "projectName": "TicTacToe",
-      "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+      "projectPath": "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToe\\TicTacToe.csproj",
       "packagesPath": "C:\\Users\\Asad\\.nuget\\packages\\",
-      "outputPath": "F:\\Study\\Git\\TicTacToe\\TicTacToe\\TicTacToe\\obj\\",
+      "outputPath": "F:\\Study\\Git\\TicTacToe\\TicTacToeUWP\\TicTacToe\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8175,7 +8175,8 @@
         "uap10.0.17763"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "uap10.0.17763": {

@@ -1,1 +1,1 @@
-F:\Study\Git\TicTacToe\TicTacToe\TicTacToe\TicTacToe.csproj;x64
+F:\Study\Git\TicTacToe\TicTacToeUWP\TicTacToe\TicTacToe.csproj;x64
