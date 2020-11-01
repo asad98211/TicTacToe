@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://api.nuget.org/v3/index.json": {}
+          "http://api.nuget.org/v3/index.json": {},
+          "http://nuget.org": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -96,7 +97,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://api.nuget.org/v3/index.json": {}
+          "http://api.nuget.org/v3/index.json": {},
+          "http://nuget.org": {}
         },
         "frameworks": {
           "uap10.0.17763": {
